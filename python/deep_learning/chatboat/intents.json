@@ -1,0 +1,90 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "doning",
+      "patterns": [
+        "What are you doing?",
+        "Why are you doning?",
+        "are you doing something rightnow?"
+      ],
+      "responses": [
+        "yeah! i am doning my code work",
+        "i feel good when i do it",
+        "yeah same thing coding!hehe"
+      ]
+    },
+    {
+      "tag": "study",
+      "patterns": [
+        "Is you are a student?",
+        "Do you accept Mastercard?",
+        "in which semester?",
+        "why are you studying?",
+        "what is your collge name",
+        "what is your subject"
+      ],
+      "responses": [
+        "Yes! I am a student",
+        "no i don't have any mastercard but it will be in my hands soon:)",
+        "Currently i am in 3rd Sem",
+        "thats not your bussiness understand baffelo (-_-)",
+        "sobhasaria group of instutions ",
+        "Btech computer science"
+      ]
+    },
+    {
+      "tag": "About",
+      "patterns": [
+        "who are you?",
+        "Tell me something about you!"
+      ],
+      "responses": [
+        "I am a chat boat created by Aashutosh sharma",
+        "So as you know i am a boat made with pytorch by using deep learning"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
