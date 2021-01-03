@@ -1,4 +1,6 @@
-sample codes are here
+### Sample codes are here
 ## HTML
 ## JAVA
-## Python 
+## Python
+* Machine learning projects
+* deep learning projects
